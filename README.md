@@ -2,7 +2,7 @@
 
 A cryptographic framework for **authenticating scanned document images**, combining digital signatures, hybrid encryption, integrity hashing, and an invisible watermark into a single sign-and-verify pipeline. The notebook implements the scheme end-to-end and runs a full experimental evaluation on a document-image dataset.
 
-> **Naming note:** The notebook file is called `ECDSA`, but the implementation actually uses **Ed25519** signatures and **X25519** key exchange. ECDSA (P-256) appears only as one baseline in the comparison table.
+> **Naming note:** The notebook file is called `Secure Document Authentication Framework`, but the implementation actually uses **Ed25519** signatures and **X25519** key exchange. ECDSA (P-256) appears only as one baseline in the comparison table.
 
 > **Note on scope:** This is a research / experimental evaluation framework, not an audited or production-ready security system. Do not use it to protect real documents without an independent security review.
 
